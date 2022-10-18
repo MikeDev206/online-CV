@@ -134,3 +134,20 @@ body {
 	color: #fff;
 	font-weight: 300;
 }
+
+.language .percentage {
+	position: relative;
+	width: 100%;
+	height: 6px;
+	background: #000;
+	margin-top: 5px;
+	display: block;
+}
+
+.language .percentage div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9f4;
+}

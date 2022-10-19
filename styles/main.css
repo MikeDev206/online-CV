@@ -167,3 +167,34 @@ body {
 	letter-spacing: 1;
 	margin-bottom: 10px;
 }
+
+.about p {
+	font-size: 14px;
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+	align-items: baseline;
+}
+
+.year-company {
+	min-width: 150px;
+}
+
+.year-company h5 {
+	text-transform: uppercase;
+	color: #848c90;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.info h4 {
+	color: #2a7da2;
+	font-size: 14px;
+}
+
+.info p {
+	font-size: 12px;
+}

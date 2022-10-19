@@ -198,3 +198,62 @@ body {
 .info p {
 	font-size: 12px;
 }
+
+.skills-box {
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills-box h4 {
+	text-transform: uppercase;
+	color: #848c90;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.skills-box .percentage {
+	position: relative;
+	width: 100%;
+	height: 9px;
+	background: #f0f0f0;
+}
+
+.skills-box .percentage div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9f4;
+}
+
+.interests ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	text-align: center;
+	align-items: baseline;
+}
+
+.interests ul li {
+	list-style: none;
+	color: #333;
+	font-weight: 500;
+	margin: 10px 0;
+	align-items: center;
+}
+
+.interests .fa-duotone,
+.interests .fa-solid {
+	color: #03a9f4;
+	font-size: 16px;
+}
+
+/* @media screen and (max-width: 1000px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+} */
